@@ -54,7 +54,7 @@ type StatusResponsePayload struct {
 
 type CallbackResponsePayload struct {
 	TranasctionID       string  `json:"transaction_id"`
-	Reference           string  `json:"reference"`
+	Reference           string  `json:"external_ref"`
 	Currency            string  `json:"currency"`
 	Amount              float64 `json:"amount"`
 	CustomerPhoneNumber string  `json:"msisdn"`
